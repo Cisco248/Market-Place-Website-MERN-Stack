@@ -11,7 +11,7 @@ function Footer() {
           <div className={Style.row}>
 
             <div className={Style.info_contact}>
-                <h5 classNameName={Style.text}><a href="" className={Style.p_name}>EasyDealz.lk</a></h5>
+                <h5 classNameName={Style.text}><a href="/" className={Style.p_name}>EasyDealz.lk</a></h5>
                 <p><i className={Style.info_contact_icon} class="fa fa-map-marker" aria-hidden="true"></i> N0 - 153 School Lane Maharagama , Sri Lanka.</p>
                 <p><i className={Style.info_contact_icon} class="fa fa-phone" aria-hidden="true"></i> +94 756752054</p>
                 <p><i className={Style.info_contact_icon} class="fa fa-envelope" aria-hidden="true"></i> easydealz@gmail.com</p>

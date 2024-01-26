@@ -1,7 +1,7 @@
 import Style from "./ElectronicPage.module.css"
 import NavigationBar from "../component/NavigationBar"
 import Footer from "../component/Footer"
-import SearchBar from "../component/SearchBar"
+import SearchBar from "../component/SearchBarComponent.jsx";
 
 function ElectronicPage() {
   return (
