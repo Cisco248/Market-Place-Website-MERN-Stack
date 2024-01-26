@@ -74,12 +74,12 @@ export const BidPage = () => {
                 <div className={Style.bid_section}>
                     <div className={Style.bid_images_align}>
                         <div className={Style.images}>
-                            <img src="s-l1600.jpg" alt="Product Image 1" className={Style.bid_images}/>
-                            <img src="s-l1600 (1).jpg" alt="Product Image 2" className={Style.bid_images} />
+                            <img src="s-l1600.jpg" alt="1" className={Style.bid_images}/>
+                            <img src="s-l1600 (1).jpg" alt="2" className={Style.bid_images} />
                         </div >
                         <div className={Style.images}>
-                            <img src="s-l1600 (2).jpg" alt="Product Image 3" className={Style.bid_images} />
-                            <img src="s-l1600 (3).jpg" alt="Product Image 4" className={Style.bid_images} />
+                            <img src="s-l1600 (2).jpg" alt="3" className={Style.bid_images} />
+                            <img src="s-l1600 (3).jpg" alt="4" className={Style.bid_images} />
                         </div>
                     </div > 
                     <div className={Style.bidding}>

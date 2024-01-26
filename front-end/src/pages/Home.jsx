@@ -31,29 +31,29 @@ function Home() {
                     <img src="./images/tv.png" />
                 </div>
                 <div className={Style.box2}>
-                    <p className={Style.category_text}><a className={Style.category_text_link} href="">Laptops</a></p>
-                    <img src="./images/laptop.png" />
+                    <p className={Style.category_text}><a className={Style.category_text_link} href="#">Laptops</a></p>
+                    <img src="./images/laptop.png" alt='' />
                 </div>
             </div>
 
             <div className={Style.category_icon2}>
                 <div className={Style.box3}>
-                    <p className={Style.category_text}><a className={Style.category_text_link} href="">Furnitures</a></p>
-                    <img src="./images/furniture.png" />
+                    <p className={Style.category_text}><a className={Style.category_text_link} href="#">Furnitures</a></p>
+                    <img src="./images/furniture.png" alt='' />
                 </div>
                 <div className={Style.box4}>
-                    <p className={Style.category_text}><a className={Style.category_text_link} href="">Vehicles</a></p>
-                    <img src="./images/car.svg" />
+                    <p className={Style.category_text}><a className={Style.category_text_link} href="#">Vehicles</a></p>
+                    <img src="./images/car.svg" alt='' />
                 </div>
             </div>
 
             <div className={Style.category_icon3}>
                 <div className={Style.box5}>
-                    <p className={Style.category_text}><a className={Style.category_text_link} href="">Mobile Phones</a></p>
-                    <img src="./images/phone.svg" />
+                    <p className={Style.category_text}><a className={Style.category_text_link} href="#">Mobile Phones</a></p>
+                    <img src="./images/phone.svg" alt='' />
                 </div>
                 <div className={Style.box6}>
-                    <p className={Style.category_text}><a className={Style.category_text_link} href="">Sports Goods</a></p><img src="./images/sports.png" />
+                    <p className={Style.category_text}><a className={Style.category_text_link} href="#">Sports Goods</a></p><img src="./images/sports.png" alt='' />
                 </div>
             </div>
         </div>
