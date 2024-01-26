@@ -28,11 +28,10 @@ function Footer() {
             <div className={Style.link_section}>
                 <h5 className={Style.text}>Useful Link</h5>
                 <ul className={Style.link_list}>
-                  <li><a  className={Style.link_text} href="index.html">Home</a></li>
-                  <li><a  className={Style.link_text} href="about.html">About</a></li>
-                  <li><a  className={Style.link_text} href="product.html">Products</a></li>
-                  <li><a  className={Style.link_text} href="why.html">Why Us</a></li>
-                  <li><a  className={Style.link_text} href="Bid.html">Bid</a></li>
+                  <li><a  className={Style.link_text} href="/">Home</a></li>
+                  <li><a  className={Style.link_text} href="/user">User</a></li>
+                  <li><a  className={Style.link_text} href="/shopping cart">Shopping Cart</a></li>
+                  <li><a  className={Style.link_text} href="/bid page">Bid</a></li>
                 </ul>
             </div>
 

@@ -5,7 +5,7 @@ function NavigationBar() {
     <div>
       <nav className={Style.navbar}>
         <div className={Style.container}>
-          <a className={Style.logo} href="#">
+          <a className={Style.logo} href="/">
             Easy <b>:</b>Dealz
           </a>
           <ul className={Style.nav_bar}>
@@ -15,12 +15,12 @@ function NavigationBar() {
               </a>
             </li>
             <li>
-              <a className={Style.nav_link} href="#">
+              <a className={Style.nav_link} href="/category">
                 CATEGORIES
               </a>
             </li>
             <li>
-              <a className={Style.nav_link} href="#">
+              <a className={Style.nav_link} href="/about">
                 ABOUT US
               </a>
             </li>
@@ -32,9 +32,9 @@ function NavigationBar() {
           </ul>
 
           <div className={Style.contact_section}>
-            <a className={Style.contact_icon_link} href="#"><i className="fa fa-phone" aria-hidden="true"></i></a>
-            <a className={Style.contact_icon_link} href="#"><i className="fa fa-user" aria-hidden="true"></i></a>
-            <a className={Style.contact_icon_link} href="#"><i className="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            <a className={Style.contact_icon_link} href="/contact us"><i className="fa fa-phone" aria-hidden="true"></i></a>
+            <a className={Style.contact_icon_link} href="/user"><i className="fa fa-user" aria-hidden="true"></i></a>
+            <a className={Style.contact_icon_link} href="/shopping cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></a>
             <a href="/postad" className={Style.post_ad_button_style}><button className={Style.post_ad_button}>Post Your Ad</button></a>
           </div>
           
@@ -44,4 +44,4 @@ function NavigationBar() {
   );
 }
 
-export default NavigationBar;
+export default NavigationBar; 
