@@ -1,0 +1,392 @@
+.product-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.product-page .div-2 {
+  background-color: #ffffff;
+  border-color: #000000;
+  height: 768px;
+  position: relative;
+  width: 1400px;
+  right: 20px;
+ }
+
+.product-page .product-images {
+  height: 638px;
+  left: 25px;
+  position: absolute;
+  top: 100px;
+  width: 897px;
+}
+
+.product-page .mainimage {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  height: 550px;
+  left: 207px;
+  position: absolute;
+  top: 0;
+  width: 550px;
+}
+
+.product-page .minImage1 {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  height: 175px;
+  left: 0;
+  position: absolute;
+  top: 395px;
+  width: 175px;
+}
+
+.product-page .minImage2 {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  height: 175px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 175px;
+}
+
+.product-page .minImage3 {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  height: 175px;
+  left: 0;
+  position: absolute;
+  top: 200px;
+  width: 175px;
+}
+
+.product-page .minImage4 {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  height: 175px;
+  left: 0;
+  position: absolute;
+  top: 595px;
+  width: 175px;
+}
+
+.product-page .product-title {
+  color: #000000;
+  font-family: "Public Sans-SemiBold", Helvetica;
+  font-size: 30px;
+  font-weight: 600;
+  left: 850px;
+  letter-spacing: 0;
+  line-height: 45px;
+  position: absolute;
+  top: 90px;
+  width: 650px;
+}
+
+.bidding {
+  color: #000000;
+  font-family: "Public Sans-SemiBold", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 850px;
+  letter-spacing: 0;
+  line-height: 54px;
+  position: absolute;
+  top: 330px;
+  width: 445px;
+  height: 461px;
+  position: absolute;
+}
+
+.bidding .place-bid-button {
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 25px;
+  height: 80px;
+  left: 120px;
+  position: absolute;
+  top: 300px;
+  width: 294px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  /* Add a transition for background color */
+}
+
+.bidding .place-bid-button:active {
+  background-color: #DC143C;
+  /* Change background color when clicked */
+}
+
+.bidding .buttonText {
+  color: #000000;
+  font-family: "Public Sans-SemiBold", Helvetica;
+  font-size: 30px;
+  font-weight: 600;
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 54px;
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.bidding .prices-and-bids {
+  height: 180px;
+  left: 7px;
+  position: absolute;
+  top: -25px;
+  width: 370px;
+}
+
+.bidding .current-bid {
+  color: #000000;
+  font-family: "Public Sans-SemiBold", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  left: 150px;
+  letter-spacing: 0;
+  position: absolute;;
+  white-space: nowrap;
+  top: -45px; 
+}
+
+.bidding .current-bid-text {
+  color: #000000;
+  font-family: "Public Sans-SemiBold", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: -45px;
+  white-space: nowrap;
+}
+
+.bidding .all-bids {
+  color: #000000;
+  font-family: "Public Sans-SemiBold", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  left: -4px;
+  letter-spacing: 0;
+  position: absolute;
+  width: 230px;
+}
+
+.bidding .Time-left {
+  color: #000000;
+  font-family: "Public Sans-SemiBold", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 50px;
+  width: 430px;
+}
+
+.bidding .bid-input-field {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 30px;
+  height: 82px;
+  left: 50px;
+  overflow: hidden;
+  position: absolute;
+  top: 175px;
+  width: 424px;
+}
+
+.bidding .input-field{
+  width: 300px;
+  padding: 10px;
+  padding-top: 25px;
+  padding-right: 155px;
+  border-radius: 8px;
+  text-indent: 10px;
+  font-size: 28px;
+  color: #000000;
+  outline: none;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease;
+  border: none;
+  font-family: "Public Sans-SemiBold", Helvetica;
+
+}
+
+.modal {
+  display: block;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */  
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  text-align: center;
+  font-family: "Public Sans-SemiBold", Helvetica;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  /* 15% from the top and centered */
+  padding: 25px;
+  border: none;
+  width: 30%;
+  height: 40%;
+  /* Could be more or less, depending on screen size */
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Public Sans-SemiBold", Helvetica;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 65px;
+  padding-left: 28px;
+  padding-right: 25px;
+  line-height: 35px;
+}
+
+.close {
+  color: #5f5f5f;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: -50px;
+  margin-right: -8px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+  background-color: red;
+}
+
+.okButton {
+  color: #f6f6f6;
+  float: right;
+  font-size: 23px;
+  font-weight:bold;
+  margin-top: 60px;
+  margin-right: 200px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(0, 0, 0);
+  padding: 2%;
+
+}
+
+.all-bids {
+  display: inline-block;
+  padding-left: 7px;  
+  background-color: #e7e7e7;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.all-bids:hover {
+  background-color: #DC143C;
+  color: #ffffff;
+}
+
+.product-details {
+  margin-top: 50px;
+  margin-left: -800px;
+  width: 1400px;
+}
+
+.heading{
+  line-height: 150px;
+  font-size: 35px;
+}
+
+.bulletPoints {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.shipping-details {
+  margin-top: 50px;
+  margin-left: -800px;
+  width: 1400px;
+}
+.heading-shipping {
+  line-height: 150px;
+  font-size: 35px;
+
+}
+
+.shipping-bulletPoints {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.auctionPolicies {
+  margin-top: 50px;
+  margin-left: -800px;
+  width: 1400px;
+}
+
+.headingPolicies {
+  line-height: 150px;
+  font-size: 35px;
+
+}
+
+.shipping-bulletPoints {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 620px;
+  margin-left: -730px;
+}
+
+.tabs button {
+  font-family: "Public Sans-SemiBold", Helvetica;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 30px;
+}
+
+.tabs button:hover {
+  background-color: #ddd;
+}
+
+.tabs button.active {
+  background-color: #ccc;
+}
+
+.bulletPointsPolicies {
+  font-size: 25px;
+  font-weight: normal;
+}
