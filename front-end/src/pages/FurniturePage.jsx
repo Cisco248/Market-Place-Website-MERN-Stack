@@ -15,7 +15,7 @@ function FurniturePage() {
             <div className={Style.container}>
                 <div className={Style.line1}>
                     <div className={Style.box1}>
-                        <h2 className={Style.item_name}>Sony 32 inch Television</h2>
+                        <h2 className={Style.item_name}>Text</h2>
                         <img className={Style.item_img} src="" alt="" />
                     </div>
                     <div className={Style.box2}>
