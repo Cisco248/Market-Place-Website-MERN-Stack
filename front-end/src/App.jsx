@@ -3,7 +3,7 @@ import Home from "./pages/Home"
 import ElectronicPage from './pages/ElectronicPage'
 import {BidPage} from './pages/BidPage'
 import PostadPage from './pages/PostadPage'
-import ProductPage from './pages/ProductPage'
+import {ProductPage} from './pages/ProductPage'
  
 
 
