@@ -27,7 +27,7 @@ function NavigationBar() {
             </li>
             <li>
               <a className={Style.nav_link} href="/product">
-                BID
+                AUCTION
               </a>
             </li>
           </ul>

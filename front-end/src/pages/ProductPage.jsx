@@ -308,7 +308,7 @@ export const ProductPage = () => {
                 <div className="modal">
                     <div className="modal-content" ref={computerBidModalRef}>
                         <button className="close" onClick={() => setShowComputerBidModal(false)}>&times;</button>
-                        <p>Computer placed a bid: ${computerBid.toFixed(2)}</p>
+                        <p>Computer placed a bid: LKR{computerBid.toFixed(2)}</p>
                     </div>
                 </div>
             )}
@@ -316,7 +316,7 @@ export const ProductPage = () => {
                 <div className="modal">
                     <div className="modal-content" ref={endAuctionModalRef}>
                         <button className="close" onClick={() => setShowEndAuctionModal(false)}>&times;</button>
-                        <p>You have won the NIKE AIR PENNY II QS ORLANDO MAGIC HOME FOAMPOSITE OG BRAND NEW SIZE 8.5 for ${currentBid.toFixed(2)}. Congratulations!</p>
+                        <p>You have won the NIKE AIR PENNY II QS ORLANDO MAGIC HOME FOAMPOSITE OG BRAND NEW SIZE 8.5 for LKR{currentBid.toFixed(2)}. Congratulations!</p>
                         <button className="okButton" onClick={() => {setShowEndAuctionModal(false); resetAuction();}}>Ok</button>
                     </div>
                 </div>
